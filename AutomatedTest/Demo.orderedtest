@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<OrderedTest name="demo" storage="c:\users\pavan\desktop\maw\wip\gtaf.web\automatedtest\demo.orderedtest" id="5c04f2dd-bc7b-4764-9d71-1f9ab52f9eac" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestLinks>
+    <TestLink id="3afef378-41f2-4a68-8070-4df489cc3279" name="TC_WEB_030_Verify_Donation_With_Valid_CreditCard" storage="..\target\bin\debug\automatedtest.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel,   PublicKeyToken=b03f5f7f11d50a3a" />
+    <TestLink id="71b800a3-090f-4bd7-20ac-dd8cbe2ac0bb" name="TC_WEB_Verify_Donation_With_Invalid_Credit_Details" storage="..\target\bin\debug\automatedtest.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel,   PublicKeyToken=b03f5f7f11d50a3a" />
+  </TestLinks>
+</OrderedTest>
