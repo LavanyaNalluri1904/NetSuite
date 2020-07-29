@@ -29,7 +29,7 @@ namespace AutomatedTest.FunctionalTests.MAW
 
             bool isValid = false;
 
-            string url = TestContext.DataRow["Url"].ToString();
+          //  string url = TestContext.DataRow["Url"].ToString();
 
             #endregion
 
@@ -37,7 +37,7 @@ namespace AutomatedTest.FunctionalTests.MAW
 
           // this.TESTREPORT.LogInfo("Verify Donation page menu and common UI items.");
            
-            Home.LunchPage(url);
+        //    Home.LunchPage(url);
 
             isValid =  Home.validateHomePageControls();
 
@@ -1103,7 +1103,7 @@ namespace AutomatedTest.FunctionalTests.MAW
             string chapterName = TestContext.DataRow["ChapterName"].ToString();
 
             #endregion
-            Home.NavigateToHome("http://illinois.wish.org/");
+            Home.NavigateToHome("http:facebook.com");
             Home.validateHomePageControls(chapterName);
             this.TESTREPORT.UpdateTestCaseStatus();
             #endregion
@@ -1382,7 +1382,7 @@ namespace AutomatedTest.FunctionalTests.MAW
         {
 
             #region TC_WEB_057 - Navigate to Donation page using Donate button on carousel
-            this.TESTREPORT.InitTestCase("TC_WEB_057 - Navigate to DonationPage using Donate button on carousel", "Verify the navigation to Donate screen from Donate button present on Homepage carousel");
+           // this.TESTREPORT.InitTestCase("TC_WEB_057 - Navigate to DonationPage using Donate button on carousel", "Verify the navigation to Donate screen from Donate button present on Homepage carousel");
             #region Test Data
             string url = TestContext.DataRow["Url"].ToString();
 

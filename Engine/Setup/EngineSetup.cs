@@ -120,6 +120,13 @@ namespace Engine.Setup
             }
         }
 
+        public static string CaptureScreenShot(string fileName)
+        {
+            string screenShotFileName = "";
+
+            return screenShotFileName;
+        }
+
         /// <summary>
         /// Gets the screen shot path.
         /// </summary>
